@@ -11,12 +11,14 @@ const Image_obj = {
   name: "Image show",
   imageUrl: "https://picsum.photos/200/300",
 };
+// Array of Objects
 const Phone = [
   { name: "Oneplus", price: "40 thousands", id: "1" },
   { name: "Apple", price: "50 thousand", id: "2" },
 ];
 
 function App() {
+ //Iterate over an array of object using map , passed array as an argument to map and created a JSX component as list
   const Listitems = Phone.map((Phone) => (
     <li key={Phone.id}>
       {"  "+ Phone.name}
