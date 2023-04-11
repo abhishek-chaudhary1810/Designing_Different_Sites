@@ -36,6 +36,11 @@
   margin-left: 150;
   margin-right: 40;
 }
+.Listitem{
+  color: #f83939;
+  font-family: 'Times New Roman';
+
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
